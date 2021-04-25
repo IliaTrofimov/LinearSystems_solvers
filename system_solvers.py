@@ -79,7 +79,7 @@ class CrossMatr:
 
 
 # =========================================================
-# Реализация необходимых методов и вспомогательные функции
+# Реализация методов и вспомогательные функции
 
 def find_maxRow(matr: np.ndarray, row_start=0, col=0):
     """
@@ -233,4 +233,3 @@ def solve_simpleIterations(matr, b_vect: np.ndarray, eps=10**(-6), get_iteration
         return xn, n
     else:
         return xn
-
